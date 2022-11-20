@@ -1,0 +1,4 @@
+{"sender":"Jim","receiver":"Pam","message":"tan"}
+{"sender":"Micael","receiver":"Micael","message":"g"}
+{"sender":"Micael","receiver":"Micael","message":"j"}
+{"sender":"Micael","receiver":"Pam","message":"lab"}

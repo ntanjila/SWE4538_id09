@@ -1,0 +1,10 @@
+
+<div> 
+    <label for="receivers">reciever</label>
+    <select id="receivers" name="receivers">
+        <% for(let i = 0; i<receivers.length; i++){ %>
+          <option for=<%=receivers[i]["name"]%> ><%=receivers[i]["name"]%></option>
+          <%}%>
+    </select>
+   
+</div>

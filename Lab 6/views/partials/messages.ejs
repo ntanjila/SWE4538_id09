@@ -1,0 +1,9 @@
+<div> 
+    <%for(let i=0; i<messages.length; i++){%>
+        <p><%=messages[i].sender%>:
+        <%=messages[i].message%></p>
+  <%}%>
+  <form method="POST" action="/filter">
+    <input type="submit" value="Refresh" />
+  </form>
+</div>
